@@ -1,13 +1,13 @@
 library(tidyverse)
 
 # Enter letters for NYT Spelling Bee, putting the center letter first
-nytimes  <- c("a",
-              "f",
-              "g",
+nytimes  <- c("d",
+              "e",
+              "t",
               "i",
-              "w",
-              "n",
-              "u") %>%
+              "f",
+              "o",
+              "x") %>%
   as.data.frame() 
 
 # Download a dictionary of all English words
