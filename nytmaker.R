@@ -89,6 +89,7 @@ pasteUnlisted <- function(list){
   paste(unlist(list),collapse = ", ")
 }
 
+## Data manipulation
 
 # Filter list of words to panagrams
 reword <- words  %>% 
@@ -176,4 +177,4 @@ reworder <- reword4 %>%
   ) %>% 
   select(-c(2))
 
-write.csv(reworder,"~rewrite.csv")
+write.csv(reworder,"reworder.csv")
