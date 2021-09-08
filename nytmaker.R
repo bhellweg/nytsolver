@@ -10,7 +10,7 @@ if (! file.exists(dict_local_zip)) {
 }
 
 #filter to english words
-dict_files <- list.files(file.path(dict_dir, 'final'), full.names=TRUE)
+dict_files <- list.files(file.path(dic?t_dir, 'final'), full.names=TRUE)
 dict_files_match <- as.numeric(tools::file_ext(dict_files)) <= 60 & grepl("english-", dict_files, fixed = TRUE)
 dict_files <- dict_files[ dict_files_match ]
 
